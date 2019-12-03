@@ -1,0 +1,72 @@
+.box1{
+  width:200px;
+  height:200px;
+  background:rgba(255,0,0,0.5);
+  position:absolute;
+  top:100px;
+  left:10%;
+  margin-left:-100px;
+}
+
+.box2{
+  width:200px;
+  height:200px;
+  background:rgba(0,0,255,0.5);
+  position:absolute;
+  top:100px;
+  left:90%;
+  margin-left:-100px;
+}
+
+.box3{
+  width:200px;
+  height:200px;
+  background:rgba(255,0,0,0.5);
+  position:absolute;
+  top:400px;
+  left:10%;
+  margin-left:-100px;
+}
+
+
+.box4{
+  width:200px;
+  height:200px;
+  background:rgba(0,0,255,0.5);
+  position:absolute;
+  top:400px;
+  left:90%;
+  margin-left:-100px;
+}
+
+@-webkit-keyframes movingbox{
+  100%{left:100%;}
+  50%{left:100%;}
+  0%{left:0%;}
+}
+
+@-webkit-keyframes movingbox1{
+  0%{left:10%;}
+  50%{left:50%;}
+  100%{left:10%;}
+}
+
+
+.box2{
+  -webkit-animation:movingbox 20s infinite;
+}
+
+/* .box1{
+  -webkit-animation:movingbox1 3s infinite;
+}
+
+.box3{
+  -webkit-animation:movingbox 3s infinite;
+}
+
+.box4{
+  -webkit-animation:movingbox1 3s infinite;
+} */
+
+
+
